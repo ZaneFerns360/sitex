@@ -12,4 +12,4 @@ EXPOSE 8000
 ENTRYPOINT ["python", "manage.py"]
 
 # Default command (you can override this when running the container)
-CMD ["runserver"]
+CMD ["runserver", "0.0.0.0:8000"]
